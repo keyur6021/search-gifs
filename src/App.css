@@ -1,0 +1,71 @@
+.header-title {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    background-color: #000;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    padding: 15px;
+}
+
+.parent-input {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.input-field {
+    padding: 8px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    caret-color: blue;
+}
+
+.parent-gif {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.main-gif-layout {
+    width: 75%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    padding: 10px;
+}
+
+.parent-one {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.gif-new {
+    text-align: center;
+}
+
+.pagination-parent {
+    text-align: right;
+    padding: 2rem;
+}
+
+.paginate-page {
+    border: 1px solid rgb(4, 4, 4);
+    color: black;
+    font-weight: 800;
+    border-radius: 100%;
+    padding: 15px;
+    margin: 2px;
+    cursor: pointer;
+    background-color: #02AFE7
+}
+
+.disabled-page {
+    border: 1px solid rgb(4, 4, 4);
+    color: black;
+    font-weight: 800;
+    border-radius: 100%;
+    padding: 15px;
+    margin: 2px;
+    cursor: pointer;
+}
